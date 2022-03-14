@@ -1,0 +1,11 @@
+:root{
+    --roundval: 0px;
+    --color: dimgray;
+}
+
+.testdiv{
+    width: 200px;
+    height: 200px;
+    border-radius: var(--roundval);
+    background-color: var(--color);
+}
